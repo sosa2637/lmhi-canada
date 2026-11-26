@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   description:
     "Longla Marine & Heavy Industries Canada, basée à Québec : soudage industriel, fabrication métallique et maintenance d’équipements industriels et maritimes pour des projets partout au Canada.",
   robots: {
-    index: process.env.SITE_INDEXABLE === "true",
-    follow: process.env.SITE_INDEXABLE === "true",
+  index: process.env.SITE_INDEXABLE !== "false",
+  follow: process.env.SITE_INDEXABLE !== "false",
   },
   icons: { icon: "/favicon.svg" },
 };
