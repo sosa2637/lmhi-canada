@@ -29,172 +29,175 @@ const routes = [
 
 const seo: Record<
   string,
-  { fr: { title: string; description: string }; en: { title: string; description: string } }
+  {
+    fr: { title: string; description: string };
+    en: { title: string; description: string };
+  }
 > = {
   "a-propos": {
     fr: {
-      title: "À propos de LMHI Canada | Entreprise industrielle",
+      title: "À propos | Entreprise industrielle",
       description:
         "Découvrez Longla Marine & Heavy Industries Canada, entreprise basée à Québec spécialisée en fabrication métallique, soudage industriel et maintenance.",
     },
     en: {
-      title: "About LMHI Canada | Industrial and Marine Services",
+      title: "About Us | Industrial and Marine Services",
       description:
         "Discover Longla Marine & Heavy Industries Canada, a Quebec-based company specializing in metal fabrication, industrial welding and maintenance.",
     },
   },
   direction: {
     fr: {
-      title: "Notre direction | LMHI Canada",
+      title: "Notre direction",
       description:
         "Découvrez la direction et la vision de Longla Marine & Heavy Industries Canada.",
     },
     en: {
-      title: "Our Leadership | LMHI Canada",
+      title: "Our Leadership",
       description:
         "Meet the leadership and vision behind Longla Marine & Heavy Industries Canada.",
     },
   },
   maritime: {
     fr: {
-      title: "Services maritimes au Canada | LMHI Canada",
+      title: "Services maritimes au Canada",
       description:
         "Découvrez nos services maritimes : maintenance navale, réparation de navires, soudage maritime et soutien technique aux installations maritimes.",
     },
     en: {
-      title: "Marine Services in Canada | LMHI Canada",
+      title: "Marine Services in Canada",
       description:
         "Explore marine maintenance, vessel repair, marine welding and technical support for marine facilities across Canada.",
     },
   },
   "industrie-lourde": {
     fr: {
-      title: "Industrie lourde et soudage industriel | LMHI Canada",
+      title: "Industrie lourde et soudage industriel",
       description:
         "Soudage industriel, fabrication métallique, assemblage mécanique et maintenance d'équipements pour les projets industriels au Canada.",
     },
     en: {
-      title: "Heavy Industry and Industrial Welding | LMHI Canada",
+      title: "Heavy Industry and Industrial Welding",
       description:
         "Industrial welding, metal fabrication, mechanical assembly and equipment maintenance for projects across Canada.",
     },
   },
   signalisation: {
     fr: {
-      title: "Signalisation routière | LMHI Canada",
+      title: "Signalisation routière",
       description:
         "Découvrez les services de signalisation routière et de soutien à la sécurisation des zones de travaux de LMHI Canada.",
     },
     en: {
-      title: "Road Traffic Control | LMHI Canada",
+      title: "Road Traffic Control",
       description:
         "Discover LMHI Canada's road work traffic control and work zone safety support services.",
     },
   },
   securite: {
     fr: {
-      title: "Sécurité privée | LMHI Canada",
+      title: "Sécurité privée",
       description:
         "Découvrez le développement de la division sécurité privée de LMHI Canada, sous réserve des permis et licences applicables.",
     },
     en: {
-      title: "Private Security | LMHI Canada",
+      title: "Private Security",
       description:
         "Learn about LMHI Canada's developing private security division, subject to applicable permits and licences.",
     },
   },
   remorquage: {
     fr: {
-      title: "Remorquage terrestre | LMHI Canada",
+      title: "Remorquage terrestre",
       description:
         "Découvrez le développement des services d'assistance aux véhicules commerciaux et équipements lourds de LMHI Canada.",
     },
     en: {
-      title: "Heavy Vehicle Assistance | LMHI Canada",
+      title: "Heavy Vehicle Assistance",
       description:
         "Learn about LMHI Canada's developing commercial vehicle and heavy equipment assistance capabilities.",
     },
   },
   "main-doeuvre": {
     fr: {
-      title: "Main-d’œuvre spécialisée | LMHI Canada",
+      title: "Main-d’œuvre spécialisée",
       description:
         "Mobilisation de soudeurs, mécaniciens et personnel spécialisé pour les projets maritimes et industriels au Canada.",
     },
     en: {
-      title: "Skilled Workforce | LMHI Canada",
+      title: "Skilled Workforce",
       description:
         "Skilled welders, mechanics and specialized personnel for marine and industrial projects across Canada.",
     },
   },
   projets: {
     fr: {
-      title: "Projets et actualités | LMHI Canada",
+      title: "Projets et actualités",
       description:
         "Consultez les projets, actualités et développements de Longla Marine & Heavy Industries Canada.",
     },
     en: {
-      title: "Projects and News | LMHI Canada",
+      title: "Projects and News",
       description:
         "Explore projects, company news and developments from Longla Marine & Heavy Industries Canada.",
     },
   },
   carrieres: {
     fr: {
-      title: "Carrières | Rejoindre LMHI Canada",
+      title: "Carrières et recrutement",
       description:
         "Découvrez les possibilités de carrière et les occasions de collaboration avec Longla Marine & Heavy Industries Canada.",
     },
     en: {
-      title: "Careers | Join LMHI Canada",
+      title: "Careers and Opportunities",
       description:
         "Explore career opportunities and ways to work with Longla Marine & Heavy Industries Canada.",
     },
   },
   partenaires: {
     fr: {
-      title: "Partenaires et fournisseurs | LMHI Canada",
+      title: "Partenaires et fournisseurs",
       description:
         "Développez des relations d'affaires avec LMHI Canada dans les secteurs maritime, industriel et des infrastructures.",
     },
     en: {
-      title: "Partners and Suppliers | LMHI Canada",
+      title: "Partners and Suppliers",
       description:
         "Build business relationships with LMHI Canada across marine, industrial and infrastructure sectors.",
     },
   },
   contact: {
     fr: {
-      title: "Contacter LMHI Canada | Québec",
+      title: "Nous contacter | Québec",
       description:
         "Contactez Longla Marine & Heavy Industries Canada pour discuter de vos besoins en soudage, fabrication métallique et maintenance.",
     },
     en: {
-      title: "Contact LMHI Canada | Quebec",
+      title: "Contact Us | Quebec",
       description:
         "Contact Longla Marine & Heavy Industries Canada to discuss welding, metal fabrication and maintenance requirements.",
     },
   },
   soumission: {
     fr: {
-      title: "Demander une soumission | LMHI Canada",
+      title: "Demander une soumission",
       description:
         "Présentez votre projet à LMHI Canada et demandez une soumission pour vos besoins industriels et maritimes.",
     },
     en: {
-      title: "Request a Quote | LMHI Canada",
+      title: "Request a Quote",
       description:
         "Tell LMHI Canada about your project and request a quote for marine and industrial services.",
     },
   },
   confidentialite: {
     fr: {
-      title: "Politique de confidentialité | LMHI Canada",
+      title: "Politique de confidentialité",
       description:
         "Consultez la politique de confidentialité de Longla Marine & Heavy Industries Canada.",
     },
     en: {
-      title: "Privacy Policy | LMHI Canada",
+      title: "Privacy Policy",
       description:
         "Read the privacy policy of Longla Marine & Heavy Industries Canada.",
     },
@@ -214,7 +217,7 @@ export async function generateMetadata({
 
   const title =
     page?.[en ? "en" : "fr"].title ||
-    (en ? "LMHI Canada | Marine and Heavy Industry" : "LMHI Canada");
+    (en ? "Marine and Heavy Industry" : "Services industriels et maritimes");
 
   const description =
     page?.[en ? "en" : "fr"].description ||
@@ -223,9 +226,7 @@ export async function generateMetadata({
       : "Services maritimes, soudage industriel, fabrication métallique et maintenance d'équipements partout au Canada.");
 
   const path = slug.join("/");
-  const canonical = path
-    ? `${BASE_URL}/${path}`
-    : BASE_URL;
+  const canonical = path ? `${BASE_URL}/${path}` : BASE_URL;
 
   const metadata: Metadata = {
     title,
@@ -234,7 +235,7 @@ export async function generateMetadata({
       canonical,
     },
     openGraph: {
-      title,
+      title: `${title} | LMHI Canada`,
       description,
       url: canonical,
       siteName: "LMHI Canada",
